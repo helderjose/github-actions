@@ -6,8 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "standard --plugin html '**/*.{js,vue}'",
-    "lintfix": "standard --fix --plugin html '**/*.{js,vue}'"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.3.2",

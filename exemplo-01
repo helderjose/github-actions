@@ -2,4 +2,11 @@
 - Colocar na default branch;
 
 
+
+----- lint igual ao do github -----
 npm install --save-dev standard eslint-plugin-html
+
+
+-- scripts no package.json --
+"lint": "standard --plugin html '**/*.{js,vue}'",
+"lintfix": "standard --fix --plugin html '**/*.{js,vue}'"
