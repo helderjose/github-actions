@@ -1,1 +1,2 @@
-Criar as pastas e arquivo ".github/workflows/"
+- Criar o arquivo ".github/workflows/superlinter.yml"
+- Colocar na default branch;
