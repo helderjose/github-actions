@@ -1,2 +1,5 @@
 - Criar o arquivo ".github/workflows/superlinter.yml"
 - Colocar na default branch;
+
+
+npm install --save-dev standard eslint-plugin-html
