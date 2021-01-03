@@ -15,8 +15,8 @@ jobs:
       # run multi-line comand
       - name: Run a multi-line script
         run: |
-          echo line one,
-          echo "line two",
+          echo line one
+          echo "line two"
           pwd
           ls ~
 
