@@ -17,6 +17,6 @@ jobs:
         run: |
           echo line one,
           echo "line two",
-          pwd,
+          pwd
           ls ~
 
