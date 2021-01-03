@@ -4,7 +4,7 @@ on: push
 
 jobs:
   lint-code:
-    name: Lint code base
+    name: Hello world workflow
     runs-on: ubuntu-latest
 
     steps:
@@ -17,5 +17,6 @@ jobs:
         run: |
           echo line one,
           echo "line two",
-          pwd
+          pwd,
+          ll ~
 
