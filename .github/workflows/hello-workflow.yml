@@ -1,0 +1,21 @@
+name: hello-workflow
+
+on: push
+
+jobs:
+  lint-code:
+    name: Lint code base
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # run multi-line comand
+      - name: Run a multi-line script
+        run: |
+          echo line one,
+          echo "line two",
+          pwd
+
