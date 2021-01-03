@@ -4,7 +4,7 @@
     <button class="btn" v-show="loggedIn">Logout</button>
   </div>
 </template>
-    
+
 <script>
   export default {
     data() {
@@ -12,5 +12,9 @@
         loggedIn: false
       }
     }
+  }
+
+  function lintTest() {
+    let a = "myVar";
   }
 </script>
