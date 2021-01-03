@@ -18,5 +18,5 @@ jobs:
           echo line one,
           echo "line two",
           pwd,
-          ll ~
+          ls ~
 
