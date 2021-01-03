@@ -14,7 +14,7 @@
     }
   }
 
-  function lintTest() {
-    let a = "myVar";
-  }
+  // function lintTest() {
+  //   let a = "myVar";
+  // }
 </script>

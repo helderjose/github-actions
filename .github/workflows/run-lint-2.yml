@@ -19,18 +19,3 @@ jobs:
       - run: npm install
       - run: npm run lint
 
-
-      #   uses: actions/setup-node@master
-
-      #   name: Installing project dependencies
-      #   run: npm install
-
-        # name: Building the project
-        # run: npm run build
-
-      # Runs the Super-Linter action
-      # - name: Run Lint
-      #   uses: github/super-linter@v3
-      #   env:
-      #     DEFAULT_BRANCH: main
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
