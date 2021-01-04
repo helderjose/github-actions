@@ -20,10 +20,11 @@ jobs:
       - run: npm run lint
       - run: npm run test:unit
       # run multi-line comand
-      - name: Run a multi-line script
-      run: |
-        echo line one
-        echo "line two"
-        pwd
-        ls -l
+      # - name: Run a multi-line script
+      - run: |
+      echo line one
+      echo "line two"
+      pwd
+      ls -l
+
 
