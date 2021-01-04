@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build2": "vue-cli-service build --target app --name app ./src/App.vue",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint --no-fix",
     "lintfix": "vue-cli-service lint --fix"
@@ -25,5 +26,8 @@
     "eslint-plugin-vue": "^5.0.0",
     "standard": "^16.0.3",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "files": [
+    "dist/*"
+  ]
 }
